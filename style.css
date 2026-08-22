@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#100400;
+    color:#fff;
+    line-height:1.7;
+}
+
+header{
+    text-align:center;
+    padding:28px 15px;
+    background:linear-gradient(135deg,#250600,#8b2500,#250600);
+    border-bottom:3px solid #f5bd19;
+}
+
+.top-title{
+    color:#ffd447;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.subtitle{
+    margin-top:5px;
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+}
+
+header p{
+    color:#ffe6a0;
+    margin-top:5px;
+}
+
+.hero{
+    width:94%;
+    max-width:950px;
+    margin:25px auto;
+    text-align:center;
+}
+
+.hero img{
+    width:100%;
+    height:430px;
+    object-fit:cover;
+    border-radius:20px;
+    border:3px solid #f5bd19;
+    box-shadow:0 0 25px rgba(245,189,25,.45);
+}
+
+.hero h1{
+    color:#ffd447;
+    margin-top:18px;
+}
+
+.hero p{
+    color:#f6e8c4;
+    font-size:17px;
+}
+
+.hero-buttons,
+.buttons{
+    display:flex;
+    gap:12px;
+    margin-top:18px;
+}
+
+.hero-buttons a,
+.buttons a{
+    flex:1;
+    padding:13px;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.hero-buttons a:first-child,
+.whatsapp{
+    background:#25d366;
+}
+
+.hero-buttons a:last-child,
+.call{
+    background:#d62828;
+}
+
+.about{
+    width:92%;
+    max-width:950px;
+    margin:30px auto;
+    padding:25px;
+    background:#230902;
+    border:1px solid #a66a00;
+    border-radius:16px;
+}
+
+.about h2,
+.problem h2,
+.contact h2{
+    color:#ffd447;
+    margin-bottom:12px;
+}
+
+.about p,
+.problem p{
+    color:#f1e4c8;
+}
+
+.main-heading{
+    text-align:center;
+    color:#ffd447;
+    margin:35px 10px 20px;
+}
+
+.problem{
+    width:92%;
+    max-width:950px;
+    margin:25px auto;
+    padding:22px;
+    background:linear-gradient(145deg,#2b0a02,#160400);
+    border:1px solid #a66a00;
+    border-radius:18px;
+}
+
+.problem img{
+    width:100%;
+    height:270px;
+    object-fit:cover;
+    border-radius:14px;
+    border:2px solid #8e5a00;
+    display:block;
+    margin-bottom:20px;
+}
+
+.contact{
+    width:92%;
+    max-width:950px;
+    margin:35px auto;
+    padding:30px;
+    text-align:center;
+    background:#2b0a02;
+    border:2px solid #f5bd19;
+    border-radius:18px;
+}
+
+.contact h3{
+    color:#fff;
+    margin-bottom:8px;
+}
+
+footer{
+    text-align:center;
+    padding:30px 15px;
+    background:#070200;
+    border-top:2px solid #a66a00;
+    color:#d9c99b;
+}
+
+footer h3{
+    color:#ffd447;
+    margin-bottom:8px;
+}
+
+@media(max-width:600px){
+
+    .top-title{
+        font-size:24px;
+    }
+
+    .subtitle{
+        font-size:15px;
+    }
+
+    .hero img{
+        height:350px;
+    }
+
+    .hero-buttons,
+    .buttons{
+        flex-direction:column;
+    }
+
+    .problem img{
+        height:220px;
+    }
+
+    .problem{
+        width:94%;
+        padding:18px;
+    }
+
+    .hero-buttons a,
+    .buttons a{
+        width:100%;
+    }
+}
